@@ -221,6 +221,17 @@ background-color: rgb(125, 125, 125);</string>
      <string>Start!</string>
     </property>
    </widget>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_9</zorder>
+   <zorder>boton_comenzar</zorder>
+   <zorder>label_6</zorder>
+   <zorder>jugador</zorder>
   </widget>
  </widget>
  <resources/>
