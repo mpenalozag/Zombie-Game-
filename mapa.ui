@@ -103,7 +103,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../City2/Pale/houses1_pale.png</pixmap>
+     <pixmap>City2/Pale/houses1_pale.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -160,7 +160,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>City3/Pale/road&amp;lamps_pale.png</pixmap>
+     <pixmap>City2/Pale/road&amp;lamps_pale.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
