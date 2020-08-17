@@ -22,9 +22,10 @@ class Colisiones(QObject):
 			zombie.moveTo(zombie.x() + velocidad, zombie.y())
 			self.chequear_colisiones(zombie, 'zombie', id_objeto)
 		if tipo == 'bala':
-			bala = self.balas[id_objeto]
-			bala.moveTo(bala.x() + velocidad, bala.y())
-			self.chequear_colisiones(bala, 'bala', id_objeto)
+			if info['id_objeto'] in self.balas:
+				bala = self.balas[id_objeto]
+				bala.moveTo(bala.x() + velocidad, bala.y())
+				self.chequear_colisiones(bala, 'bala', id_objeto)
 
 	def crear_rect(self, info):
 		# Info es un dict con id_objeto, tipo, pos x, pos y
