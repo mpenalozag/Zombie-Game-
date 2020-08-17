@@ -27,7 +27,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../City3/Pale/houses3_pale.png</pixmap>
+     <pixmap>City3/Pale/houses3_pale.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -65,7 +65,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../City3/Pale/houses1_pale.png</pixmap>
+     <pixmap>City3/Pale/houses1_pale.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -122,7 +122,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../City3/Pale/houses1_pale.png</pixmap>
+     <pixmap>City3/Pale/houses1_pale.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
