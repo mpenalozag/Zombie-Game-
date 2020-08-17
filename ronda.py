@@ -34,7 +34,7 @@ class Ronda(QThread):
 
     def run(self):
         for i in range(self.zombies_por_ronda()):
-            time.sleep(self.spawn_speed/1000)
+            time.sleep(self.spawn_speed/1850)
             self.generar_zombie()
         self.ronda_terminada()
         time.sleep(5)
